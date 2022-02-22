@@ -1,0 +1,52 @@
+{
+  "common": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "ok": "Tamam",
+    "save": "Kaydet"
+  },
+  "app": {
+    "name": "CaRP",
+    "long-name": "Carpet Resource Planning",
+    "menu": {
+      "home": "Ana Sayfa",
+      "stock-card" : "Stok Kartı",
+      "general": {
+        "text": "Genel Tanımlar",
+        "user": {
+          "text": "Kullanıcı",
+          "add": "Kullanıcı Ekle",
+          "list": "Kullanıcı Listesi"
+        }
+      }
+    },
+    "login": {
+      "email": "email",
+      "password": "Şifre",
+      "sign-in": "Giriş",
+      "forgot-password": "Şifremi Unuttum",
+      "reset-password": "Şifre Değiştir",
+      "reset-password-desc": "Lütfen kayıt olduğunuz mail adresinizi giriniz. Size şifre değiştirmek için kullanacağınız bir mail göndereceğiz.",
+      "return-sign-in": "Giriş Ekranına Dön",
+      "reset-password-notification": "e-mailin gönderildi. Lütfen gelen kutunuzu kontrol edin."
+    }
+  },
+  "security": {
+    "user": {
+      "add": {
+        "content-block": "Kullanıcı Ekle",
+        "mail": "Mail Adresi",
+        "password": "Şifre",
+        "check-pass": "Şifre (Tekrar)",
+        "name": "Adı",
+        "surname": "Soyadı"
+      }
+    }
+  },
+  "validation": {
+    "common": {
+      "required": "Bu alanın doldurulması zorunludur.",
+      "invalid-mail": "e-mail Hatalı"
+    }
+  }
+}

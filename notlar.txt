@@ -1,0 +1,1 @@
+Overlock stok kartında olmayacak. Desen içerisinde field olarak eklenmesi yeterli. PaletteLineLatte join edilecek.

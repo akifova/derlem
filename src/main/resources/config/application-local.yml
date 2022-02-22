@@ -1,0 +1,68 @@
+spring:
+    datasource:
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://8.8.8.8:5432/derlem_demo?useUnicode=true&characterEncoding=utf8&
+        username: username
+        password: password
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        database: postgresql
+        show-sql: true
+        properties:
+            hibernate:
+                generate_statistics: false
+                connection:
+                    CharSet: utf8
+                    characterEncoding: utf8
+                jdbc:
+                    lob.non_contextual_creation: true
+            org:
+                hibernate:
+                    envers:
+                        audit_table_suffix: _aud
+                        default_schema: audit
+        hibernate:
+            ddl-auto: none
+            naming:
+              implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+    thymeleaf:
+        cache: false
+    session:
+        store-type: none
+    data:
+        mongodb:
+            database: carp
+debug: false
+trace: false
+logging:
+    level:
+        root: error
+        org:
+            springframework:
+                security: error
+                web: debug
+                data:
+                    mongodb:
+                        core:
+                            MongoTemplate: error
+            hibernate:
+                SQL: error
+                type: error
+            apache:
+                commons:
+                    dbcp2: error
+        com:
+            zaxxer:
+                hikari:
+                    pool:
+                        HikariPool: error
+                        PoolBase: error
+                    HikariDataSource: error
+derlem:
+    server:
+        ip-address: http://37.247.105.22
+        file:
+            path:
+                linux: /home/kazu/derlem
+                osx: /Users/akifova/derlem
+                win: x:\

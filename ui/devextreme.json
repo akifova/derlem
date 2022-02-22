@@ -1,0 +1,38 @@
+{
+  "applicationEngine": "vue",
+  "vue": {
+    "version": 3
+  },
+  "build": {
+      "commands": [
+          {
+              "command": "build-theme",
+              "options": {
+                  "inputFile": "src/app/common/themes/metadata.base.json",
+                  "outputFile": "src/app/common/themes/generated/theme.base.css"
+              }
+          },
+          {
+              "command": "build-theme",
+              "options": {
+                  "inputFile": "src/app/common/themes/metadata.additional.json",
+                  "outputFile": "src/app/common/themes/generated/theme.additional.css"
+              }
+          },
+          {
+              "command": "export-theme-vars",
+              "options": {
+                  "inputFile": "src/app/common/themes/metadata.base.json",
+                  "outputFile": "src/app/common/themes/generated/variables.base.scss"
+              }
+          },
+          {
+              "command": "export-theme-vars",
+              "options": {
+                  "inputFile": "src/app/common/themes/metadata.additional.json",
+                  "outputFile": "src/app/common/themes/generated/variables.additional.scss"
+              }
+          }
+      ]
+  }
+}

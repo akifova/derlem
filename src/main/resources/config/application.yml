@@ -1,0 +1,63 @@
+management:
+    health:
+        mail:
+          enabled: false
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+spring:
+    application:
+        name: Derlem
+    profiles:
+        active: dev
+    servlet:
+      multipart:
+        max-request-size: 2GB
+        max-file-size: 20GB
+        enabled: true
+    jackson:
+        serialization.write_dates_as_timestamps: false
+        time-zone: Europe/Istanbul
+    jpa:
+        open-in-view: false
+    messages:
+        basename: i18n/messages
+    thymeleaf:
+      enabled: true
+    datasource:
+      sqlScriptEncoding: UTF-8
+    mail:
+      host: mail.kazu.com
+      port: 587
+      username: akif.ova@kazu.com
+      password: C@arp1923*
+      default-encoding: UTF-8
+      protocol: smtp
+      properties:
+        mail:
+          smptp:
+            auth: true
+            starttls:
+              enable: true
+    session:
+      store-type: none
+    cache:
+      jcache:
+        config: classpath:/config/ehcache.xml
+server:
+  servlet:
+    context-path: /
+springdoc:
+  writer-with-default-pretty-printer: true
+  swagger-ui.supportedSubmitMethods:
+    - "get"
+    - "put"
+    - "post"
+    - "delete"
+    - "options"
+    - "head"
+    - "patch"
+    - "trace"
+  swagger-ui:
+    disable-swagger-default-url: true

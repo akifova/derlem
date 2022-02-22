@@ -1,0 +1,786 @@
+{
+  "common": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "ok": "Tamam",
+    "save": "Kaydet",
+    "update": "Güncelle",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "delete-confirm": "Silmek İstediğinizden Emin misiniz?",
+    "close-confirm": "Tasarım Projesini Kaptmak İstediğinizden Emin misiniz ?",
+    "confirm": "Onaylama",
+    "download": "İndir",
+    "addLine": "Satır Ekle",
+    "changePassword": "Şifre Değiştir",
+    "logOut": "Çıkış Yap",
+    "oldPassword": "Eski Şifre",
+    "newPassword": "Yeni Şifre",
+    "confirmPassword": "Yeni Şifre Tekrar",
+    "insertDate": "Eklenme Tarihi",
+    "savesUser": "Ekleyen Kullanıcı",
+    "versionNumber": "Versiyon  Numarası",
+    "versionDate": "Versiyon Tarihi",
+    "created": "Kayıt İşlemi Başarılı",
+    "active": "Aktif",
+    "passive": "Pasif",
+    "sample": "Numune",
+    "select": "Seç",
+    "bmp-file": "Sadece .BMP uzantılı dosyalar yükleyebilirsiniz"
+  },
+  "app": {
+    "name": "Derlem",
+    "long-name": "Derlem | Desen Arşivi",
+    "menu": {
+      "home": "Ana Sayfa",
+      "field-definitions": "Alan Tanımları",
+      "stock-card": {
+        "text": "Stok Kartı",
+        "collection": {
+          "text": "Koleksiyon Tanımı",
+          "add": "Koleksiyon Ekle",
+          "edit": "Koleksiyon Düzenle",
+          "list": "Koleksiyon Listesi",
+          "delete": "Koleksiyon Sil"
+        },
+        "quality": {
+          "text": "Kalite Tanımı",
+          "add": "Kalite Ekle",
+          "edit": "Kalite Düzenle",
+          "list": "Kalite Listesi",
+          "delete": "Kalite Sil"
+        },
+        "shape": {
+          "text": "Şekil Tanımı",
+          "add": "Şekil Ekle",
+          "edit": "Şekil Düzenle",
+          "list": "Şekil Listesi",
+          "delete": "Şekil Sil"
+        },
+        "palette": {
+          "text": "Palet Tanımı",
+          "add": "Palet Ekle",
+          "edit": "Palet Düzenle",
+          "list": "Palet Listesi",
+          "delete": "Palet Sil"
+        },
+        "size-definitions": {
+          "text": "Ebat Tanımı",
+          "add": "Ebat Ekle",
+          "edit": "Ebat Düzenle",
+          "list": "Ebat Listesi",
+          "delete": "Ebat Sil"
+        },
+        "pattern-code": {
+          "text": "Desen Kodu Tanımı",
+          "add": "Desen Kodu Ekle",
+          "edit": "Desen Kodu Düzenle",
+          "list": "Desen Kodu Listesi",
+          "delete": "Desen Kodu Sil"
+        },
+        "edge": {
+          "text": "Kenar Formu Tanımı",
+          "add": "Kenar Formu Ekle",
+          "edit": "Kenar Formu Düzenle",
+          "list": "Kenar Formu Listesi",
+          "delete": "Kenar Formu Sil"
+        }
+      },
+      "general": {
+        "text": "Genel Tanımlar",
+        "brand": {
+          "text": "Marka Tanımlama",
+          "add": "Marka Ekle",
+          "edit": "Marka Düzenle",
+          "list": "Marka Listesi",
+          "delete": "Mark Sil"
+        },
+        "uom": {
+          "text": "Ölçü Birimi Tanımlama",
+          "add": "Ölçü Birimi Ekle",
+          "edit": "Ölçü Birimi Düzenle",
+          "list": "Ölçü Birim Listesi",
+          "delete": "Ölçü Birim Sil"
+        },
+        "account": {
+          "text": "Kullanıcı Tanımlama",
+          "add": "Kullanıcı Ekle",
+          "edit": "Kullanıcı Düzenle",
+          "list": "Kullanıcı Listesi",
+          "delete": "Kullanıcı Sil",
+          "profile": "Kullanıcı Profili"
+        },
+        "firm": {
+          "text": "Firma Tanımlama",
+          "add": "Firma Ekle",
+          "edit": "Firma Düzenle",
+          "list": "Firma Listesi",
+          "delete": "Firma Sil"
+        }
+      },
+      "yarn": {
+        "list": "İplik Listesi",
+        "text": "İplik",
+        "title": "İplik Tanımı",
+        "type": {
+          "text": "İplik Tipi",
+          "add": "İplik Tipi Ekle",
+          "edit": "İptlik Tipi Düzenle",
+          "list": "İplik Tipi Listesi",
+          "delete": "İplik Tipi Sil"
+        },
+        "property": {
+          "text": "İplik Özelliği",
+          "add": "İplik Özelliği Ekle",
+          "edit": "İplik Özelliği Düzenle",
+          "list": "İplik Özelliği Listesi",
+          "delete": "İplik Özelliği Sil"
+        },
+        "group": {
+          "text": "İplik Grubu",
+          "add": "İplik Grubu Ekle",
+          "edit": "İplik Grubu Düzenle",
+          "list": "İplik Grubu Listesi",
+          "delete": "İplik Grubu Sil"
+        },
+        "definition": {
+          "text": "İplik Tanımı",
+          "add": "İplik Tanım Ekle",
+          "edit": "İptlik Tanımı Düzenle",
+          "list": "İplik Tanımı Listesi",
+          "delete": "İplik Tanımı Sil"
+        }
+      },
+      "specimen": {
+        "text": "Numune",
+        "yarn": {
+          "text": "Numune İplik",
+          "add": "Numune İplik Ekle",
+          "edit": "Numune İplik Düzenle",
+          "list": "Numune İplik Listesi",
+          "delete": "Numune İplik Sil"
+        },
+        "creel": {
+          "text": "Cağ Dizilim Formu",
+          "add": "Cağ Dizilim Formu Ekle",
+          "edit": "Cağ Dizilim Formu Düzenle",
+          "list": "Cağ Dizilim Formu Listesi",
+          "delete": "Cağ Dizilim Formu Sil"
+        }
+      },
+      "design": {
+        "text": "Desen",
+        "plan": {
+          "text": "Tasarım Projesi",
+          "add": "Tasarım Projesi Ekle",
+          "edit": "Tasarım Projesi Düzenle",
+          "list": "Tasarım Projesi Listesi",
+          "delete": "Tasarım Projesi Sil"
+        }
+      },
+      "archive": {
+        "text": "Arşiv",
+        "design": {
+          "text": "Tasarım Projesi",
+          "add": "Tasarım Projesi Ekle",
+          "edit": "Tasarım Projesi Düzenle",
+          "list": "Tasarım Projesi Listesi",
+          "delete": "Tasarım Projesi Sil"
+        },
+        "designList": {
+          "text": "Tasarım Ekle",
+          "add": "Tasarım Listesi Ekle",
+          "edit": "Tasarım Listesi Düzenle",
+          "list": "Tasarım Listesi Listesi",
+          "delete": "Tasarım Listesi Sil"
+        },
+        "addDesign": "Desen Ekle",
+        "addVersion": "Versiyon Ekle",
+        "search": {
+          "text": "Desen Ara"
+        },
+        "showroom": {
+          "text": "Show Room"
+        }
+      },
+      "license": {
+        "text": "Lisans",
+        "add": "Lisans Ekle",
+        "mac-address": "Mac Adres",
+        "processorId": "CPU ID",
+        "actives": "Aktif Lisanslar",
+        "all": "Lisanslar",
+        "endDate": "Lisans Bitiş Tarihi",
+        "baseBoardSerialNumber": "Anakart Seri Numarası",
+        "active": "Aktif Lisanlar"
+      }
+    },
+    "login": {
+      "email": "Email",
+      "password": "Şifre",
+      "sign-in": "Giriş",
+      "forgot-password": "Şifremi Unuttum",
+      "reset-password": "Şifre Değiştir",
+      "reset-password-desc": "Lütfen kayıt olduğunuz mail adresinizi giriniz. Size şifre değiştirmek için kullanacağınız bir mail göndereceğiz.",
+      "return-sign-in": "Giriş Ekranına Dön",
+      "reset-password-notification": "e-mailin gönderildi. Lütfen gelen kutunuzu kontrol edin."
+    },
+    "pattern-code": {
+      "field-definition": "Desen Kodu Alan Tanımları",
+      "code": "Desen Kodu"
+    },
+    "size-definition": {
+      "field-definition": "Ebat Alan Tanımları",
+      "code": "Ebat Kodu",
+      "size-type": "Ebat Tipi",
+      "definition": "Ebat Tanımı",
+      "width": "En (cm)",
+      "length": "Boy (cm)",
+      "sqm": "m2",
+      "inch": "Inc",
+      "type": {
+        "standard": "Standard",
+        "roll": "Rulo"
+      }
+    },
+    "general": {
+      "brand": {
+        "name": "Marka Tanımı",
+        "code": "Marka Kodu"
+      },
+      "uom": {
+        "unit": "Ölçü Birimi",
+        "shortName": "Ölçü Birimi Kısaltması"
+      },
+      "account": {
+        "name": "Adı",
+        "surname": "Soyadı",
+        "password": "Şifre",
+        "oldPassword": "Eski Şifre",
+        "newPassword": "Yeni Şifre",
+        "confirmPassword": "Tekrar Yeni Şifre",
+        "role": "Kullanıcı rolü",
+        "userRoles": "Kullanıcı Rolleri",
+        "email": "E-posta",
+        "reset-password": "Şifre Sıfırla"
+      },
+      "firm": {
+        "name": "Firma Adı",
+        "tradeName": "Firma Ticari Ünvanı",
+        "taxOffice": "Vergi Dairesi",
+        "taxNumber": "Vergi Numarası",
+        "supplier": "Tedarikçi mi?",
+        "customer": "Müşteri mi?",
+        "outsourcer": "Fason Üretici mi?",
+        "isPersonCompany": "Şahıs Şirketi mi?",
+        "addressname": "Adres Tanımı",
+        "address": "Tam Adres",
+        "weburl": "Web Sayfası Adresi",
+        "county": "Şehir",
+        "mailAddress": "Eposta Adresi",
+        "phoneNumber": "Telefon Numarası"
+      }
+    },
+    "stock-card": {
+      "shape": {
+        "code": "Şekil Kodu",
+        "definition": "Şekil Tanımı"
+      },
+      "quality": {
+        "field-definition": "Kalite Alan Tanımları",
+        "quality-code": "Kalite Kodu",
+        "code": "Kalite Kodu",
+        "quality-definition": "Kalite Tanımı",
+        "definition": "Kalite Tanımı",
+        "woof-number": "Atkı Sayısı",
+        "woof": "Atkı Sayısı",
+        "crest-number": "Tarak Sayısı",
+        "crest": "Tarak Sayısı"
+      },
+      "palette": {
+        "code": "Palet Kodu",
+        "definition": "Palet Tanımı",
+        "paletteLineAdd": "Palet Satır Ekle",
+        "paletteColors": "Palet Renkleri",
+        "colorCode": "Renk Kodu",
+        "color": "Renk",
+        "colorDefinition": "Renk Açıklaması",
+        "rgbRed": "RGB Red",
+        "rgbGreen": "RGB Green",
+        "rgbBlue": "RGB Blue",
+        "rotationNumber": "Palet Sıra No",
+        "lattePercentage": "Latte Oranı",
+        "yarnNumber": "İplik Sıra No",
+        "line": "Renkleri",
+        "latte": "İplikler",
+        "yarn": "İplik",
+        "yarnAdd": "İplik Ekle",
+        "getColorsFromImage": "Desenden Renkleri Oku",
+        "similar-palettes": {
+          "header": "Benzer Paletler",
+          "match-color-count": "Eşlenen Renk Sayıları",
+          "similarity-ratio": "Benzerlik Oranı"
+        }
+      },
+      "edge": {
+        "definition": "Kenar Formu Tanımı",
+        "code": "Kenar Formu Kodu",
+        "length": "Kenar Boşluğu (mm)"
+      },
+      "collection": {
+        "field-definition": "Koleksiyon Alan Tanımları",
+        "code": "Koleksiyon Kodu",
+        "definition": "Koleksiyon Tanımı",
+        "brand": "Marka",
+        "shrinkage": "Çekme Payı",
+        "painted": "Boyanacak mı ?",
+        "washed": "Yıkanacak mı ?",
+        "horizontalWeaving": "Yatay Dokuma Yapılacak mı?"
+      }
+    },
+    "yarn": {
+      "type": {
+        "name": "İplik Tipi"
+      },
+      "property": {
+        "name": "Özellik Tanımı",
+        "yarn-property-type": {
+          "text": "Özellik Tipi",
+          "other": "Diğer",
+          "color": "Renk",
+          "size": "Ebat",
+          "fixed": "Sabit"
+        },
+        "print-on-barcode": "Sevk Barkodunda Basılacak mı?"
+      },
+      "property-line": {
+        "attribute": "Özellik Adı",
+        "code": "Özellik Kodu",
+        "title": "'e ait alt özellikler"
+      },
+      "group": {
+        "name": "İplik Grubu",
+        "yarn-type": "İplik Tipi",
+        "property": "Grubun Kullanacağı Özellikler"
+      },
+      "definition": {
+        "name": "İplik Adı",
+        "weight": "İplik Ağırlığı",
+        "actionType": "İplik Hareket Tipi",
+        "minStock": "Minimum Stok Miktarı",
+        "salable": "İplik Satılabilir mi?",
+        "needQcApprove": "Kalite Kontrol Onayı Gerekli mi?",
+        "surveillance": "Stok Takibi Yapılacak mı?",
+        "unitOfMeasure": "Satınalma ve Takip Birimi",
+        "weightUnit": "Ağılık Ölçü Birimi",
+        "yarnGroup": "İplik Grubu",
+        "usageType": "Kullanım Durumu",
+        "mark": "Kullanıcı Hatırlatma Etiketi"
+      }
+    },
+    "specimen": {
+      "yarn": {
+        "code": "İplik Kodu",
+        "manufacturerCode": "Tedarikçi Kodu",
+        "colorCode": "Renk Kodu",
+        "colorName": "Renk Adı",
+        "yarnNumber": "İplik Numarası",
+        "spin": "Büküm Sayısı",
+        "cipsPercentage": "Cips Oranı",
+        "uvType": "Uv Tipi",
+        "fixedType": "Fikse Tipi",
+        "fiberType": "Elyaf Tipi",
+        "fiberFineness": "Elyaf İnceliği",
+        "filamentQuantity": "Flament Sayısı",
+        "supplier": "Tedarikçi Firma",
+        "weightUnit": "Ağırlık Birimi",
+        "weight": "İplik Ağırlığı",
+        "yarnGroup": "İplik Grubu",
+        "version": "Versiyon",
+        "active": "Durum",
+        "detail": "İplik Detay"
+      },
+      "creel": {
+        "designPlan": "Tasarım Projesi",
+        "paletteCode": "Palet Kodu",
+        "qualityName": "Kalite Adı",
+        "sampleName": "Numune Adı",
+        "activeVersion": "Aktif Versiyon",
+        "raising": "Şardon Var mı?",
+        "washing": "Yıkama Var mı?",
+        "woof": "Atkı Sayısı",
+        "crest": "Tarak Sayısı",
+        "lancet": "Lanset",
+        "bottomWoofYarn": "Atkı ipi (Alt)",
+        "middleWoofYarn": "Atkı ipi (Orta)",
+        "topWoofYarn": "Atkı ipi (Üst)",
+        "knittingType": "Örgü Yapısı",
+        "task": {
+          "title": "Açıklama"
+        },
+        "yarn": "Atkı İpi",
+        "qualityDesc": "Kalite Bilgileri",
+        "palette": "Palet Tanımları",
+        "detail": "Cağ Dizilim Detay",
+        "lattePercentage": "Latte Oranı",
+        "rotationNumber": "İplik Sıra No"
+      }
+    },
+    "design": {
+      "plan": {
+        "image": "Desen Görseli",
+        "title": "Başlık",
+        "deadLine": "Termin Tarihi",
+        "task": {
+          "title": "Görevler",
+          "text": "Açıklama"
+        },
+        "owner": "Tasarım Projesi Sorumlusu",
+        "picture": "Desen Dosyası Seçiniz"
+      }
+    },
+    "archive": {
+      "search": {
+        "title": "Arşivde Ara",
+        "tab": {
+          "designProperties": "Desen Bilgileri",
+          "stockCard": "Stok Kartı Bilgileri",
+          "archive": "Arşiv Bilgileri"
+        },
+        "grid-column": {
+          "caption": {
+            "design-image": "Desen",
+            "design-property": "Desen Bilgileri",
+            "version-number": "Versiyon",
+            "archive-status": "Durumu",
+            "stock-card": {
+              "header": "Stok Kartı Bilgileri",
+              "quality": "Kalite",
+              "collection": "Koleksiyon",
+              "design": "Desen Kodu",
+              "palette": "Palet",
+              "size": "Ebat",
+              "shape": "Şekil",
+              "edge": "Kenar Formu",
+              "side-edge": "Boy Kenar"
+            },
+            "design-plan": {
+              "header": "Tasarım Projesi",
+              "title": "Başlık"
+            }
+          },
+          "archiveStatus": "",
+          "code": "Kod",
+          "definition": "Tanım",
+          "name": "Adı",
+          "creelQualityVersion": "CDF Kalite Ver.",
+          "creelPaletteVersion": "CDF Palet Ver.",
+          "makingRare": {
+            "true": "Var",
+            "false": "Yok"
+          },
+          "context-menu": {
+            "convert-status": {
+              "header": "Durum Değiştir",
+              "convert-to-archive": "Ürün Arşivine Gönder",
+              "convert-to-stock": "Saklanan Desenler Arasına Gönder",
+              "convert-to-unusable": "Kullanılmayacak Desenler Arasına Gönder",
+              "convert-to-retired": "Emekli Desenler Arasına Gönder"
+            },
+            "download": {
+              "header": "İndir",
+              "jpg": "JPG İndir",
+              "zip": "Boş ve Taramalarla Birlikte İndir",
+              "bmp": "BMP Desen İndir"
+            }
+          }
+        }
+      },
+      "design": {
+        "firm": "Firma",
+        "difficulty": "Çizim Zorluk Derecesi (10..100)",
+        "tag": "Anahtar Kelime",
+        "starRating": "Beğenilme Katsayısı (1..5)",
+        "creelPalette": "Cağ Dizilim Paleti",
+        "quality": "Kalite",
+        "palette": "Palet",
+        "collection": "Koleksiyon",
+        "designName": "Desen Adı",
+        "design": "Desen",
+        "size": "Ebat",
+        "shape": "Şekil",
+        "customer": "Müşteri",
+        "designer": "Tasarımcı",
+        "designPlan": "Tasarım Projesi",
+        "designCode": "Desen Kodu",
+        "empty": "Boş",
+        "scanning": "Tarama",
+        "edge": "Kenar Formu",
+        "creelQuality": "Cağ Kalite",
+        "archiveStatus": "Arşiv Durumu",
+        "makingRarePaletteIndexes": "Seyreltme Renkleri Palet Sıraları",
+        "overlockYarn": "Overlok İpi",
+        "sideEdge": "Boy Kenar",
+        "weaveType": "Dokuma Tipi",
+        "flat": "Düz Dokuma",
+        "cross": "Ters Dokuma",
+        "makingRare": "Seyreltme Var mı?",
+        "making-rare-placeholder": "0- veya 0-16-45-",
+        "bordure": "Bordür",
+        "floor": "Zemin Rengi",
+        "designFile": "Desen Dosyası Seçiniz",
+        "emptyFile": "Boş Dosyası Seçiniz",
+        "scanningFile": "Tarama Dosyası Seçiniz",
+        "status": {
+          "RD": "Tasarım",
+          "SAMPLE": "Numune",
+          "PRODUCT": "Üretim Arşivi",
+          "STOCK": "Stokta Saklanan",
+          "UNUSABLE": "Kullanılmayacak",
+          "RETIRED": "Emekli"
+        }
+      },
+      "designList": {
+        "convert-to-sample": "Numuneye Dönüştür",
+        "text": "Tasarım Projesi Oluştur",
+        "stock-card": "Stok Kartı Bilgileri",
+        "production-information": "Üretim Bilgileri",
+        "general-definition": "Genel Tanımlar",
+        "creel-definition": "Cağ Dizilim Tanımları",
+        "tag": "Arama Kelimeleri"
+      }
+    },
+    "show-archive-image": {
+      "view": "Göster"
+    }
+  },
+  "security": {
+    "user": {
+      "add": {
+        "content-block": "Kullanıcı Ekle",
+        "mail": "Mail Adresi",
+        "password": "Şifre",
+        "check-pass": "Şifre (Tekrar)",
+        "name": "Adı",
+        "surname": "Soyadı"
+      }
+    }
+  },
+  "validation": {
+    "required-selectBox": "{msg} alanı seçilmesi zorunludur.",
+    "required-textBox": "{msg} alanının doldurulması zorunludur.",
+    "login": {
+      "require-email": "Email alanın doldurulması zorunludur.",
+      "email-rule": "Geçerli bir email adresi giriniz",
+      "require-password": "Şifre alanın doldurulması zorunludur."
+    },
+    "common": {
+      "required": "Bu alanın doldurulması zorunludur.",
+      "invalid-mail": "e-mail Hatalı",
+      "required-oldPassword": "Eski şifrenin girilmesi zorunludur.",
+      "required-newPassword": "Yeni şifrenin girilmesi zorunludur.",
+      "required-confirmPassword": "Şifre tekrarı girilmesi zorunludur.",
+      "required-passwordComparison": "Yeni şifre ve Yeni Şifre tekrarı eşleşlememektedir."
+    },
+    "quality": {
+      "required": "Kalite kodu alanı doldurulması zorunludur.",
+      "required-number": "Kalite kodu alanı rakamlardan oluşmalıdır.",
+      "correct": "Kalite tanımı doğru girilmelidir.",
+      "definition": {
+        "required": "Kalite tanımı alanı doldurulması zorunludur.",
+        "correct": "Kalite tanımı doğru girilmelidir."
+      }
+    },
+    "woof": {
+      "required": "Atkı alanı doldurulması zorunludur.",
+      "required-number": "Atkı alanı rakamlardan oluşmalıdır."
+    },
+    "crest": {
+      "required": "Tarak sayısı alanı doldurulması zorunludur.",
+      "required-number": "Atkı alanı rakamlardan oluşmalıdır."
+    },
+    "pattern-code": {
+      "required": "Desen kodu alanı  doldurulması zorunludur."
+    },
+    "size-definition": {
+      "sizeType": "Ebat tipi seçilmesi gerekli",
+      "code": "Ebat kodu alanı doldurulması zorunludur.",
+      "width": "En alanı doldurulması zorunludur.",
+      "length": "Boy alanı doldurulması zorunludur.",
+      "definition": "Ebat Tanımı doldurulması zorunludur.",
+      "code-number": "Ebat kodu alanı rakamlardan oluşmalıdır.",
+      "width-number": "En alanı rakamlardan oluşmalıdır.",
+      "length-number": "Boy alanı rakamlardan oluşmalıdır."
+    },
+    "brand": {
+      "required-name": "Marka tanımı alanı doldurulması zorunludur.",
+      "required-code": "Marka kodu alanı doldurulması zorunludur.",
+      "name-minLength": "En az 2 karakter olmalıdır.",
+      "code-minLength": "En az 1 karakter olmalıdır."
+    },
+    "uom": {
+      "required-unit": "Ölçü birimi alanı doldurulması zorunludur.",
+      "required-shortName": "Ölmçü birimi kısaltması alanı doldurulması zorunludur.",
+      "name-minLength": "En az 2 karakter olmalıdır.",
+      "code-minLength": "En az 1 karakter olmalıdır."
+    },
+    "account": {
+      "required-name": "Ad alanı doldurulması zorunludur.",
+      "required-surname": "Soyad alanı doldurulması zorunludur.",
+      "required-password": "Şifre alanı doldurulması zorunludur.",
+      "required-oldPassword": "Eski Şifre alanı doldurulması zorunludur.",
+      "required-newPassword": "Yeni Şifre alanı doldurulması zorunludur.",
+      "password-comparison": "Şifreleriniz eşleşmemektedir.",
+      "required-confirmPassword": "Şifre Tekrar alanı doldurulması zorunludur.",
+      "required-email": "E-posta alanı doldurulması zorunludur.",
+      "required-role": "Kullanıcı rolü seçiniz.",
+      "invalid-email": "E-posta adresini doğru yazınız."
+    },
+    "firm": {
+      "required-name": "Firma alanı doldurulması zorunludur.",
+      "required-tradeName": "Firma ünvanı alanı doldurulması zorunludur.",
+      "required-taxOffice": "Vergi Dairesi alanı doldurulması zorunludur.",
+      "required-taxNumber": "Vergi Numarası alanı doldurulması zorunludur.",
+      "required-addressname": "Adres tanımı alanı doldurulması zorunludur.",
+      "required-address": "Adres alanı doldurulması zorunludur.",
+      "required-weburl": "Web Sayfası Adresi alanı doldurulması zorunludur.",
+      "required-email": "E-posta alanı doldurulması zorunludur.",
+      "required-phoneNumber": "Telefon alanı doldurulması zorunludur.",
+      "invalid-email": "E-posta adresini doğru yazınız."
+    },
+    "stock-card": {
+      "shape": {
+        "required-code": "Şekil kodu alanı doldurulması zorunludur.",
+        "required-definition": "Şekil tanımı alanı doldurulması zorunludur."
+      },
+      "quality": {
+        "required-code": "Kalite kodu alanı doldurulması zorunludur.",
+        "required-definition": "Kalite tanımı alanı doldurulması zorunludur.",
+        "required-woof": "Atkı sayısı doldurulması zorunludur.",
+        "required-crest": "Tarak sayısı alanı doldurulması zorunludur.",
+        "min-woof-range-rule" : "En az atkı sayısı 10 en fazla 200 yazabilirsiniz.",
+        "min-crest-range-rule" : "En az tarak sayısı 10 en fazla 200 yazabilirsiniz.",
+        "code-string-length-rule": "En az 1 en fazla 5 karakter uzunluğunda yazabilirsiniz"
+      },
+      "edge": {
+        "required-definition": "Kenar formu tanımı alanı doldurulması zorunludur.",
+        "required-code": "Kenar formu kodu alanı doldurulması zorunludur.",
+        "required-length": "Kenar boşluğu alanı doldurulması zorunludur."
+      },
+      "collection": {
+        "required-code": "Koleksiyon kodu alanı doldurulması zorunludur.",
+        "required-definition": "Koleksiyon tanımı alanı doldurulması zorunludur.",
+        "required-shrinkage": "Çekme yapı alanı doldurulması zorunludur.",
+        "required-brand": "Marka seçimi yapılması zorunludur.",
+        "code-string-length-rule": "En az 2 en fazla 10 karakter uzunluğunda yazabilirsiniz"
+      },
+      "palette": {
+        "required-code": "Palet Kodu alanı doldurulması zorunludur.",
+        "required-definition": "Palet Tanımı alanı doldurulması zorunludur.",
+        "required-paletteLineAdd": "Palet Satır Ekle alanı doldurulması zorunludur.",
+        "required-colorCode": "Renk Kodu alanı doldurulması zorunludur.",
+        "required-colorDefinition": "Renk Açıklaması alanı doldurulması zorunludur.",
+        "required-rgbRed": "RGB Red alanı doldurulması zorunludur.",
+        "required-rgbGreen": "RGB Green alanı doldurulması zorunludur.",
+        "required-rgbBlue": "RGB Blue alanı doldurulması zorunludur.",
+        "required-rotationNumber": "Latte Renk Sıra alanı doldurulması zorunludur.",
+        "required-lattePercentage": "Latte Oranı alanı doldurulması zorunludur."
+      }
+    },
+    "yarn": {
+      "required-name": "İplik adı alanı doldurulması zorunludur.",
+      "required-group": "İplik grubu seçilmesi zorunludur.",
+      "required-weight": "İplik ağırlığı alanı doldurulması zorunludur.",
+      "required-minStock": "Minimum stok alanı doldurulması zorunludur.",
+      "required-unitOfMeasure": "Uzunluk ölçü birimi seçilmesi zorunludur.",
+      "required-weightUnit": "Ağırlık ölçü birimi seçilmesi zorunludur.",
+      "required-usageType": "İplik kullanım durumu seçilmesi zorunludur.",
+      "required-actionType": "İplik hareket tipi seçilmesi zorunludur.",
+      "type": {
+        "required-name": "İplik tipi alanı doldurulması zorunludur."
+      },
+      "yarn-property-type": {
+        "required-name": "Özellik tanımı alanı doldurulması zorunludur.",
+        "required-yarnpropertytype": "Özellik Tipi seçimi zorunludur."
+      },
+      "group": {
+        "required-name": "İplik gurubu alanı doldurulması zorunludur.",
+        "required-yarn-type": "İplik Tipi seçimi zorunludur.",
+        "required-property": "İplik özelliği seçimi zorunludur."
+      }
+    },
+    "specimen": {
+      "yarn": {
+        "required-code": "İplik kodu alanı doldurulması zorunludur.",
+        "required-manufacturerCode": "Tedarikçi kodu alanı doldurulması zorunludur.",
+        "required-yarnNumber": "İplik numarası alanı doldurulması zorunludur.",
+        "required-colorCode": "Renk kodu alanı doldurulması zorunludur.",
+        "required-colorName": "Renk adı alanı doldurulması zorunludur.",
+        "required-spin": "Büküm sayısı alanı doldurulması zorunludur.",
+        "required-cipsPercentage": "Cips oranı alanı doldurulması zorunludur.",
+        "required-uvType": "Uv tipi alanı doldurulması zorunludur.",
+        "required-fixedType": "Fikse tipi alanı doldurulması zorunludur.",
+        "required-fiberType": "Elyaf tipi alanı doldurulması zorunludur.",
+        "required-fiberFineness": "Elyaf inceliği alanı doldurulması zorunludur.",
+        "required-filamentQuantity": "Flament sayısı alanı doldurulması zorunludur.",
+        "required-supplier": "Tedarikçi alanı seçilmesi zorunludur.",
+        "required-weightUnit": "Ağırlık birimi alanı seçilmesi zorunludur.",
+        "required-weight": "Ağırlık ağırlığı alanı doldurulması zorunludur.",
+        "required-yarnGroup": "İplik grubu alanı seçilmesi zorunludur."
+      },
+      "creel": {
+        "required-paletteCode": "Palet Kodu alanı doldurulması zorunludur.",
+        "required-qualityName": "Kalite Adı alanı doldurulması zorunludur.",
+        "required-sampleName": "Numune Adı alanı doldurulması zorunludur.",
+        "required-raising": "Şardon alanı seçilmesi zorunludur.",
+        "required-washing": "Yıkama alanı seçilmesi zorunludur.",
+        "required-woof": "Atkı Sayısı alanı doldurulması zorunludur.",
+        "required-crest": "Tarak Sayısı alanı doldurulması zorunludur.",
+        "required-lancet": "Lanset alanı doldurulması zorunludur.",
+        "required-bottomWoofYarn": "Atkı ipi (Alt) alanı seçilmei zorunludur.",
+        "required-middleWoofYarn": "Atkı ipi (Orta) alanı seçilmesi zorunludur.",
+        "required-topWoofYarn": "Atkı ipi (Üst) alanı seçilmesi zorunludur.",
+        "required-knittingType": "Örgü Yapısı alanı doldurulması zorunludur.",
+        "required-designPlan": "Tasarım Projesi alanı seçilmesi zorunludur."
+      }
+    },
+    "design": {
+      "plan": {
+        "required-owner": "Desen sahibi alanını seçiniz.",
+        "required-deadLine": "Termin tarihi alanı seçiniz.",
+        "required-title": "Başık alanı doldurulması zorunludur."
+      }
+    },
+    "archive": {
+      "design": {
+        "required-designPlan": "Tasarım başlığı alanı seçilmesi zorunludur.",
+        "required-creel": "Cağ dizilim paleti alanı seçilmesi zorunludur.",
+        "required-creelQuality": "Cağ kalite alanı seçilmesi zorunludur.",
+        "required-creelPalette": "Cağ dizilim paleti alanı seçilmesi zorunludur.",
+        "required-collection": "Koleksiyon alanı seçilmesi zorunludur.",
+        "required-designName": "Desen adı alanı doldurulması zorunludur.",
+        "required-size": "Ebat alanı seçilmesi zorunludur.",
+        "required-shape": "Şekil alanı seçilmesi zorunludur.",
+        "required-quality": "Kalite alanı seçilmesi zorunludur.",
+        "required-edge": "Kenar formu alanı seçilmesi zorunludur.",
+        "required-customer": "Müşteri alanı seçilmesi zorunludur.",
+        "required-designer": "Tasarımcı alanı seçilmesi zorunludur.",
+        "required-tag": "Arama kelime alanı doldurulması zorunludur.",
+        "required-sideEdge": "Boy kenar seçilmesi zorunludur.",
+        "required-weaveType": "Dokuma tipi seçilmesi zorunludur.",
+        "required-design": "Desen seçilmesi zorunludur.",
+        "required-palette": "Palet seçilmesi zorunludur.",
+      },
+      "search": {
+        "required-one-variable": "En az 1 kriter girilmelidir."
+      }
+    },
+    "license": {
+      "endDate": "Lisan Bitiş Tarihini boş bırakmayın.",
+      "mac-address": "Mac Adresini boş bırakmayın.",
+      "processorId": "CPU ID boş bırakmayın.",
+      "baseBoardSerialNumber": "Anakart Seri Numarası boş bırakmayın.",
+      "text": "Lisans boş bırakmayın."
+    }
+  }
+}
